@@ -34,9 +34,9 @@ module Network.Uri
        ) where
 
 import Control.Applicative ((<$>), (<*>), (<|>), (<$), optional, many, pure)
-import Data.Monoid ((<>))
+import Data.Monoid         ((<>))
 import Control.Monad       (guard)
-import Data.Maybe (fromMaybe)
+import Data.Maybe          (fromMaybe)
 
 import qualified Data.Text             as T
 import qualified Data.Text.Encoding    as TE
